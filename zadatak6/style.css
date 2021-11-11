@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(101,151,209,0.8),rgba(202,102,211,0.5)),url(/quizbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+  
+  body{
+      font-size: 19px;
+      font-family: 'Avenir', sans-serif;
+      color: #212020;
+    font-weight: 300;
+    text-align: center;
+    background-image: url(https://blogs.imf.org/wp-content/uploads/2018/12/BLOG-1024x600-quiz-global-economy-nirodesign-gettyimages-iStock-498307386.jpg);
+  }
+  h1{
+    font-weight: 300px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #000;
+    color: #fff;
+  
+  ;
+  }
+  .question{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black
+  }
+  .answers {
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .answers label{
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 15px;
+      background-color:black;
+      color: white;
+      border: 0px;
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+    margin-top: 60px;
+  }
+  button:hover{
+      background-color: magenta;
+  }
+  
+  .slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .active-slide{
+    opacity: 2;
+    z-index: 3;
+  }
+  .quiz-container{
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  
