@@ -47,7 +47,7 @@ h1 {
 
 #game > li.x {
     font-size: 40px;
-    color: #ed4e6e
+    color: #ed4b6c
 }
 
 #game > li.o {
@@ -89,7 +89,7 @@ h1 {
     text-align: center;
         border: none;
         padding: 0.6em 1.2em;
-        background: #ed4e6e;
+        background: #ed4768;
         color: #fff;
         font-size: 1em;
         letter-spacing: 1px;
@@ -101,5 +101,5 @@ h1 {
 }
 
 #reset-game:hover {
-        background: rgb(119, 111, 111);
+        background: rgb(172, 125, 125);
 }
