@@ -1,0 +1,4 @@
+Za drugi zadatak potrebno je kreirati igru X-O. Igra se ne razlikuje od standardne X-O igre. 
+Potrebno je kreirati igru tako da je moguće igrati u dvoje, tj. da se zna ko je igrač X, a ko je igrač O. Kada korisnik pokrene aplikaciju otvara se prazna tabela dimenzija 3x3. Prvi igrač je uvijek igrač X. Ako se dođe do neriješenog ishoda, igra treba sama da se restartuje (sva polja postaju prazna). 
+Ako je igrač X/O pobjednik, treba prikazati poruku: 
+Igrač X/O je pobjednik (npr. preko alert) i treba restartovati igru. Lijevi klik miša predstavlja jedinu interakciju sa tabelom, ali treba pratiti koji igrač je na potezu, da li je polje već popunjeno i svaki put nakon poteza provjeriti da li zadnji potez pobjednički.
