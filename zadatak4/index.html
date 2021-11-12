@@ -5,21 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Slider</title>
 </head>
 <body>
-    <h1>Slider</h1>
-    <div class="slider" id="main-slider">
-        <div class="slider-wrapper">
-            <div class="slide" data-image="https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg"></div>
-            <div class="slide" data-image="http://https://media.istockphoto.com/photos/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-picture-id1093110112?s=170667a"></div>
-            <div class="slide" data-image="http://https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg"></div>
+    <div class="slider">
+ 
+        <div class="slide fade">
+          <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" style="width:100%">
         </div>
-        <div class="slider-nav">
-            <button class="slider-previous">Previous</button>
-            <button class="slider-next">Next</button>
+ 
+        <div class="slide fade">
+          <img src="https://images.ctfassets.net/hrltx12pl8hq/61DiwECVps74bWazF88Cy9/2cc9411d050b8ca50530cf97b3e51c96/Image_Cover.jpg?fit=fill&w=480&h=270" style="width:100%">
         </div>
-    </div>
-    <script src="./slider.js"></script>
+ 
+        <div class="slide fade">
+          <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" style="width:100%">
+        </div>
+ 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ 
+        </div>
+ 
+        <script src="./slider.js"></script>
 </body>
 </html>
